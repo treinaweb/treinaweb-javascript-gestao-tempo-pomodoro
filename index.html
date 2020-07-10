@@ -6,13 +6,29 @@
 </head>
 
 <body>
+    <div class="main" >
+        <div class="turns" >1/4</div>
 
-    <svg width="200" height="200" class="circle-container" >
-        <circle class="background-circle" />
-        <circle class="circle" />
-    </svg>
-    
-    
+        <div class="time-container" >
+            <svg width="200" height="200" class="circle-container" >
+                <circle class="background-circle" />
+                <circle class="circle" />
+            </svg>
+            <div class="time" >88:88</div>
+        </div>
+
+        <div class="time-mode" >Trabalho</div>
+
+        <div>
+            <button class="timer-control" >Iniciar</button>
+            <button class="reset-button" >Reininicar</button>
+        </div>
+    </div>
+
+    <audio id="notification" >
+        <source src="notification.mp3" >
+    </audio>
+
     <script src="scripts.js" ></script>
 </body>
 </html>
