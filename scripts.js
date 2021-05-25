@@ -79,7 +79,7 @@ function nextTurn(){
     }
     if(currentTurn <= totalTurns){
         if(isBreakTime){
-            if(currentTurn < totalTime){
+            if(currentTurn < totalTurns){
                 totalTime = breakTime;
             }else{
                 totalTime = longBreakTime;
