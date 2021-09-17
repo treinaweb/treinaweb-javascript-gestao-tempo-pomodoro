@@ -4,7 +4,7 @@ const timeModeElement = document.querySelector('.time-mode');
 const turnElement = document.querySelector('.turns');
 const controlButton = document.querySelector('.timer-control');
 const resetButton = document.querySelector('.reset-button');
-const notificationSound = document.querySelector('#notification');
+const notificationSound = new Audio('notification.mp3');
 
 let isRunning,
     isBreakTime,
